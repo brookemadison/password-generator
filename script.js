@@ -25,7 +25,5 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-function passwordCriteria(){
-  var userAdjective = prompt("Please provide an Adjective");
-  alert (userAdjective);
-}
+
+
