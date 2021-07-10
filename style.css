@@ -30,7 +30,7 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
-.card {
+.container {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
   border-width: 1px;
@@ -50,7 +50,7 @@ header {
   height: 2px;
 }
 
-.card-body {
+.result-container {
   min-height: 100px;
 }
 
@@ -100,11 +100,12 @@ button[disabled] {
 	margin: 15px 0;
 }
 
+
 .float-right {
   float: right;
 }
 
-#password {
+#result {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -132,7 +133,7 @@ button[disabled] {
     padding: 10px 15px;
   }
 
-  #password {
+  #result {
     font-size: 1rem;
   }
 }
