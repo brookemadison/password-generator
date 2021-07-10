@@ -1,67 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Password Generator</h1>
-      </header>
-      <div class="container">
-        <div class="card-header">
-          <h2>Generate a Password</h2>
-        </div>
-        <div class="card-body">
-     
-          <span id="result">Your Secure Password</span>
-          <button class="btn" id="clipboard">
-            <i class="far fa-clipboard"></i> copy
-          </button>
-        </div>
-        <div class="card-footer">
-            </div>
-            <div class="settings">
-              <div class="setting">
-                <input type="number" id="length" min='8' max='128' value='20' />
-              </div>
-              <div class="setting">
-                <label>Include uppercase letters</label> 
-                <input type="checkbox" id="uppercase" checked />
-              </div>
-              <div class="setting">
-                <label>Include lowercase letters</label> 
-                <input type="checkbox" id="lowercase" checked />
-              </div>
-              <div class="setting">
-                <label>Include numbers</label> 
-                <input type="checkbox" id="numbers" checked />
-              </div>
-              <div class="setting">
-                <label>Include symbols</label> 
-                <input type="checkbox" id="symbols" checked />
-              </div>
-            </div>
-            <button class="btn" id="generate">
-              Generate password
-            </button>
-          </div>
-          </div>
-          </div>
-          </div>
-          
-          
-          
-
-
-
-
-    <script src="script.js"></script>
-    <input type="checkbox" name="checkbox" />
-
-  </body>
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<title>Password Generator</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Password Generator</h1>
+		</header>
+		<div class="container">
+			<div class="card-header">
+				<h2>Generate a Password</h2>
+			</div>
+			<div class="card-body">
+				<span id="result">Your Secure Password</span> <button class="btn" id="clipboard"><i class="far fa-clipboard"></i> copy</button>
+			</div>
+			<div class="card-footer"></div>
+			<div class="settings">
+				<div class="setting">
+					<input id="length" max='128' min='8' type="number" value='20'>
+				</div>
+				<div class="setting">
+					<label>Include uppercase letters</label> <input checked id="uppercase" type="checkbox">
+				</div>
+				<div class="setting">
+					<label>Include lowercase letters</label> <input checked id="lowercase" type="checkbox">
+				</div>
+				<div class="setting">
+					<label>Include numbers</label> <input checked id="numbers" type="checkbox">
+				</div>
+				<div class="setting">
+					<label>Include symbols</label> <input checked id="symbols" type="checkbox">
+				</div>
+			</div><button class="btn" id="generate">Generate password</button>
+		</div>
+	</div>
+	<script src="script.js">
+	</script>
+	<form>
+		<input name="checkbox" type="checkbox"> 
+	</form>
+</body>
 </html>
