@@ -1,14 +1,15 @@
 *, *::before, *::after {
 	box-sizing: border-box;
 }
+
 html, body, .wrapper {
 	height: 100%;
 	margin: 0;
 	padding: 0;
 }
 body {
-	font-family: sans-serif;
-	background-color: #f9fbfd;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #E1E5F2;
 }
 .wrapper {
 	padding-top: 30px;
@@ -36,7 +37,7 @@ header {
 	content: " ";
 	display: block;
 	width: 100%;
-	background: #e7e9eb;
+	background: #fff;
 	height: 2px;
 }
 .result-container {
@@ -49,7 +50,7 @@ header {
 	content: " ";
 	display: block;
 	width: 100%;
-	background: #e7e9eb;
+	background: #E1E5F2;
 	height: 2px;
 }
 .card-footer::after {
@@ -59,7 +60,7 @@ header {
 }
 .btn {
 	border: none;
-	background-color: hsl(360, 91%, 36%);
+	background-color: #1F7A8C;
 	border-radius: 25px;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
 	color: hsl(0, 0%, 100%);
@@ -70,6 +71,9 @@ header {
 	padding: 14px 34px;
 	text-align: center;
 	cursor: pointer;
+}
+.btn:hover {
+	background-color: #BFDBF7;
 }
 button[disabled] {
 	cursor: default;
